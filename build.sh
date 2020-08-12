@@ -4,4 +4,6 @@ FLAGS="-g -Wall -Wno-missing-braces"
 INCLUDES="-I./src"
 LIBRARIES="-lraylib -lGL -lm -lpthread -ldl -lrt -lX11"
 
-clang -o shaderbox src/shaderbox_demo.c $FLAGS $INCLUDES $LIBRARIES
+# Build examples
+mkdir -p build
+clang -o build/shaderbox_demo examples/shaderbox_demo.c src/shaderbox.c $FLAGS $INCLUDES $LIBRARIES

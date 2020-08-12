@@ -13,11 +13,9 @@
 #include "raylib.h"
 #include <stdio.h>
 #include <assert.h>
-
-#define SHADERBOX_IMPLEMENTATION
 #include "shaderbox.h"
 
-int main(int argc, char **argv)
+int main(int argc, char** argv)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
@@ -28,7 +26,6 @@ int main(int argc, char **argv)
     InitWindow(screenWidth, screenHeight, "Shaderbox");
 
     Shaderbox shaderbox = LoadShaderbox("resources/shaders/bookofshaders/bookofshaders1.fs");
-
     bool debug = false;
 
     SetTargetFPS(60);
