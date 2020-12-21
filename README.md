@@ -9,7 +9,7 @@ A sandbox for testing and developing shaders.
 
 Note that this is a side project I started for fun and it is a work in progress.
 
-![bookofshaders1](screenshots/bookofshaders1.png)
+![bookofshaders1](docs/bookofshaders1.png)
 
 ## Contributing
 
