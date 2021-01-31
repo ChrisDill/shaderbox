@@ -25,7 +25,7 @@ int main(int argc, char** argv)
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(screenWidth, screenHeight, "Shaderbox");
 
-    Shaderbox shaderbox = LoadShaderbox("resources/shaders/bookofshaders/bookofshaders1.fs");
+    Shaderbox shaderbox = LoadShaderbox("resources/bookofshaders/bookofshaders1.fs");
     bool debug = false;
 
     SetTargetFPS(60);
