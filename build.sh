@@ -2,7 +2,10 @@
 
 FLAGS="-g -Wall -Wno-missing-braces"
 INCLUDES="-I./src"
-LIBRARIES="-lraylib -lGL -lm -lpthread -ldl -lrt -lX11"
+LIBRARIES="./src/raylib/libraylib.a -lGL -lm -lpthread -ldl -lrt -lX11"
+
+# Clean build output
+find build -type f -executable -delete
 
 # Build examples
 mkdir -p build
